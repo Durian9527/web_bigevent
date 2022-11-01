@@ -16,6 +16,6 @@ $.ajaxPrefilter(function (options) {
             location.href = '/login.html'
         }
     }
-})
+}) 
 
 // 先查看分支，添加到暂存区，把当前本地分支推送到远程分支，然后切换到main分支，然后合并login分支，然后推送到远程仓库
